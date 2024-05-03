@@ -1,0 +1,134 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://strattonamenities.com/wp-content/uploads/2019/06/To-do-list.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #c9b6a7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.complete-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.complete-btn:hover {
+    background-color: #2980b9;
+}
+
+
+.edit-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.edit-btn:hover {
+    background-color: #d68910;
+}
+
+.delete-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.delete-btn:hover {
+    background-color: #dd3333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+li:nth-child(even) {
+    background-color: #ebebeb;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
+
+.clear-btn {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.clear-btn button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.clear-btn button:hover {
+    background-color: #dd3333;
+}
