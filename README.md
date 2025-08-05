@@ -90,6 +90,6 @@ The **Login Page** is a responsive and secure web page designed for user authent
 
 Feel free to connect for queries or collaboration opportunities!  
 - **GitHub:** [pankajsilot](https://github.com/pankajsilot)  
-- **Email:** [your-email@example.com](mailto:your-email@example.com)
+- **Email:** [pankajsilot9@gmail.com]
 
 ---
